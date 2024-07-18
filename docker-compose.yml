@@ -1,12 +1,11 @@
 version: '3.8'
 
 services:
-  db:
-    image: postgres:13
+  ecommerce-db:
+    image: postgres
     environment:
-      POSTGRES_USER: postgresun
-      POSTGRES_PASSWORD: postgrespw
-      POSTGRES_DB: nestjs-demo
+      POSTGRES_USER: huyle
+      POSTGRES_PASSWORD: password
     ports:
       - "5432:5432"
     volumes:

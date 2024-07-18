@@ -13,7 +13,7 @@ export const configuration = () => ({
     host: process.env.DATABASE_HOST || 'localhost',
     port: parseInt(process.env.DATABASE_PORT, 10) || 5432,
     name: process.env.DATABASE_NAME || 'ecommercedb',
-    user: process.env.DATABASE_USER || 'hassan',
+    user: process.env.DATABASE_USER || 'huyle',
     password: process.env.DATABASE_PASSWORD || 'password',
     entities: process.env.DATABASE_ENTITIES || 'dist/**/*.entity.{ts,js}',
   },

@@ -11,6 +11,18 @@ Deploying the backend service of an Ecommerce Application using NestJS.
 $ npm install
 ```
 
+## Prepare database
+
+Run docker container of postgres db
+```bash
+$ docker compose up -d
+```
+
+Run migration
+```bash
+$ npm run migration:run
+```
+
 ## Running the app
 
 ```bash
