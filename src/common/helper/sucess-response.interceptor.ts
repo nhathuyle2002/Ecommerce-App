@@ -15,9 +15,14 @@ export class SucessResponseInterceptor implements NestInterceptor {
           isSuccess: true,
           message: 'success',
           data,
+          errorCode: null,
           errors: [],
         };
       }),
     );
   }
 }
+
+export const successObject = {
+  message: 'success',
+};
